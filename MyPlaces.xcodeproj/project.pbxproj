@@ -13,6 +13,7 @@
 		2C746E71247C09FA005BA4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C746E70247C09FA005BA4E8 /* Assets.xcassets */; };
 		2C746E74247C09FA005BA4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C746E72247C09FA005BA4E8 /* LaunchScreen.storyboard */; };
 		2CA9FD20247C13B900D61F17 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9FD1F247C13B900D61F17 /* MainViewController.swift */; };
+		2CA9FD22247D117800D61F17 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9FD21247D117800D61F17 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C746E73247C09FA005BA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C746E75247C09FA005BA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA9FD1F247C13B900D61F17 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2CA9FD21247D117800D61F17 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2C746E67247C09F7005BA4E8 /* AppDelegate.swift */,
+				2CA9FD21247D117800D61F17 /* CustomCell.swift */,
 				2CA9FD1F247C13B900D61F17 /* MainViewController.swift */,
 				2C746E69247C09F7005BA4E8 /* SceneDelegate.swift */,
 				2C746E6D247C09F7005BA4E8 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2CA9FD20247C13B900D61F17 /* MainViewController.swift in Sources */,
 				2C746E68247C09F7005BA4E8 /* AppDelegate.swift in Sources */,
+				2CA9FD22247D117800D61F17 /* CustomCell.swift in Sources */,
 				2C746E6A247C09F7005BA4E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
